@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jangane</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<header>
+   <nav>
+       <div class="container">
+            <div class="boxnav"><a href="#about">About</a></div>
+            <div class="boxnav"><a href="#shop">Shop</a></div>
+            <div class="boxnav kategori"><a href="#kategori">Categorized Product</a></div>
+            <div class="boxnav double"><a href="#"><img src="assets/Jangane.png" width="150px" alt="Jangane"></a></div>
+            <div class="boxnav profile"><a href="#">Sign In</a></div>
+            <div class="boxnav profile"><a href="#">Cart</a></div>
+       </div>
+   </nav>
+   <div class="jumbotron center">
+       <img src="assets/home.png" class="home" alt="Jangane">
+       <h2>be sure, be nature</h2>
+       <p>Buat kamu yang ingin hidup sehat, <br>
+          Kamu datang di tempat yang tepat</p>
+       <div class="lineDiv1"></div>
+   </div>
+</header>
+
+<main>
+            <!-- About -->
+           <article id="about" class="card">
+               <img src="assets/logo.png" class="logo" alt="logo"> 
+               <h2>Meet your new bestie, Jangane</h2>
+               <p>Kita memerlukan vitamin, mineral dan serat yang tinggi untuk  mengatur pertumbuhan dan pemeliharaan tubuh. Itulah mengapa Jangane hadir untuk memenuhi kebutuhan tubuh kamu menjadi lebih sehat. Jangane akan membantu kamu menemukan sayur dan buah - buahan dengan kualitas terbaik. </p>
+               <div class="clear"></div>
+               <div class="lineDiv2"></div>
+            </article>
+ 
+            <!-- Shop -->
+           <article id="shop" class="card">
+               <img src="assets/boxJangane.png" class="boxJangane" alt="boxJangane">
+               <div class="caraKerja">
+               <h2>How it works </h2>
+               <ol class="borderNumber">
+                   <li>Kami mencari produk organik segar dari petani lokal setempat  </li>
+                   <li>Kamu memilih produk yang kamu inginkan</li>
+                   <li>Kami mengirimkan produk langsung ke rumahmu dalam 24 jam</li>
+               </ol> 
+               <button>Belanja Sekarang</button> 
+               </div>
+               <div class="clear"></div>
+            </article>
+ 
+            <!-- Categorized Product -->
+           <article id="kategori" class="card">
+               <h2>Categorized Product</h2>
+               <div class="categorized">
+                    <section class="boxCate">
+                        <h3>Fresh Vegetables</h3>
+                        <img src="assets/sayur segar.png" class="categorized-image" alt="bosscha">
+                        <p>Sayuran yang tumbuh di tanah yang subur menghasilkan berbagai vitamin, mineral, dan serat yang penting untuk tubuh dan mampu meningkatkan kesehatan.</p> 
+                    </section>
+                    <section class="boxCate">
+                        <h3>Natural Organic Fruits</h3>
+                        <img src="assets/buah segar.png" class="categorized-image" alt="farm house">
+                        <p>Dipetik langsung dari pohonnya yang mana tidak ada proses pematangan lagi selain pematangan yang alami sehingga buah bahan pangan tersebut bisa langsung dikonsumi tanpa memerlukan pengolahan lagi.</p>  
+                    </section>
+               </div>
+           </article>
+    
+    <div class="a-main">
+           <!-- Follow-Up -->
+           <article class="review">
+                <h2>Follow-Up</h2>
+                <div class="slide-container">
+                    <div class="slides">
+                        <img src="assets/testimoni.png" class="testimoni" alt="Review"> 
+                        <h3>Praktis</h3>
+                        <p>Belanja di Jangane itu praktis, tinggal pilih produk, bayar, dan barang sampai dengan cepat. Harganya juga murah dan gratis ongkir.</p>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="slides">
+                        <img src="assets/testimoni2.png" class="testimoni" alt="Review"> 
+                        <h3>Ekonomis</h3>
+                        <p>Belanja di Jangane menjadi lebih hemat karena banyak diskon dan gratis ongkir serta harga langsung dari petani lokal.</p>
+                        <div class="clear"></div>
+                    </div>
+                    <!-- button -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+           </article>
+
+	<aside class="profile img">
+	    <article class="profile-card">
+            <h2>Meet the Owner</h2>
+            <div class="profil">
+	         <header>
+	             <p>Hai</p>
+	             <figure>
+	                <img src="assets/Profil.png" width="150px">
+	                <figcaption>Silfiatul Ulumiyah</figcaption>
+	            </figure>
+	         </header>
+		        <section>
+				   <p>Mahasiswi Universitas Brawijaya jurusan Sistem Informasi yang tertarik dengan dunia Pengembang Front-End Web dan Back-End.</p>
+				</section>
+            </div>
+	    </article>
+	</aside>
+    </div>  
+</main>
+
+    <footer>
+       <p>Jangane &copy; 2022</p>
+    </footer>
+
+
+<script src="jangane.js"></script>    
+</body>
+</html>
