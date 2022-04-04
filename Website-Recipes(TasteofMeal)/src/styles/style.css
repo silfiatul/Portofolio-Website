@@ -1,0 +1,36 @@
+@import "appbar.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 85%;
+    /* max-width: 800px; */
+    margin: 12px auto;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    background-color: #57b8bf;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+footer p {
+    text-align: center;
+    padding: 10px;
+}
+
